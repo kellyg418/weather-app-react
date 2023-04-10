@@ -47,13 +47,13 @@ export default function Weather() {
               />
               <strong class="current-temperature" id="temperature"></strong>
               <span class="units">
-                <a href="#" class="celsius-unit" id="celsius-link">
+                <button href="#" class="celsius-unit" id="celsius-link">
                   20°C
-                </a>{" "}
+                </button>{" "}
                 |
-                <a href="#" id="fahrenheit-link">
+                <button href="#" id="fahrenheit-link">
                   °F
-                </a>
+                </button>
               </span>
             </div>
             <div class="col-6">
@@ -71,7 +71,11 @@ export default function Weather() {
       </div>
       <small>
         This application was coded by Kelly Granados and is
-        <a href="https://github.com/kellyg418/my-weather-app" target="_blank">
+        <a
+          href="https://github.com/kellyg418/my-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           Open-sourced
         </a>
       </small>
